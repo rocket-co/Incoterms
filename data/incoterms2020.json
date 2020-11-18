@@ -1,0 +1,68 @@
+{
+    "exw": {
+        "code": "EXW",
+        "concept": "Ex Works",
+        "description": "The seller makes the goods available at their premises, or at another named place.",
+        "transport_rule": "Any Mode"
+    },
+    "fca": {
+        "code": "FCA",
+        "concept": "Free Carrier",
+        "description": "The seller delivers the goods, cleared for export, at a named place.",
+        "transport_rule": "Any Mode"
+    },
+    "cpt": {
+        "code": "CPT",
+        "concept": "Carriage Paid To",
+        "description": "The seller pays for the carriage of the goods up to the named place of destination",
+        "transport_rule": "Any Mode"
+    },
+    "cip": {
+        "code": "CIP",
+        "concept": "Carriage and Insurance Paid To",
+        "description": "The seller pays for the carriage of the goods up to the named place of destination and is required to obtain insurance for the goods while in transit.",
+        "transport_rule": "Any Mode"
+    },
+    "dap": {
+        "code": "DAP",
+        "concept": "Delivered at Place",
+        "description": "The seller delivers when the goods are placed at the disposal of the buyer on the arriving means of transport ready for unloading at the named place of destination.",
+        "transport_rule": "Any Mode"
+    },
+    "dpu": {
+        "code": "DPU",
+        "concept": "Delivered at Place Unloaded",
+        "description": "The seller delivers the goods, unloaded, at the named place of destination.",
+        "transport_rule": "Any Mode"
+    },
+    "ddp": {
+        "code": "DDP",
+        "concept": "Delivered Duty Paid",
+        "description": "Seller is responsible for delivering the goods to the named place in the country of the buyer, and pays all costs in bringing the goods to the destination including import duties and taxes.",
+        "transport_rule": "Any mode"
+    },
+    "fas": {
+        "code": "FAS",
+        "concept": "Free Alongside Ship",
+        "description": "The seller delivers when the goods are placed alongside the buyer's vessel at the named port of shipment.",
+        "transport_rule": "Sea and inland waterway"
+    },
+    "fob": {
+        "code": "FOB",
+        "concept": "Free On Board",
+        "description": "The seller bears all costs and risks up to the point the goods are loaded on board the vessel.",
+        "transport_rule": "Sea and inland waterway"
+    },
+    "cfr": {
+        "code": "CFR",
+        "concept": "Cost and Freight",
+        "description": "The seller pays for the carriage of the goods up to the named port of destination.",
+        "transport_rule": "Sea and inland waterway"
+    },
+    "cif": {
+        "code": "CIF",
+        "concept": "Cost Insurance and Freight",
+        "description": "The seller pays for the carriage of the goods up to the named port of destination and is required to obtain insurance for the goods while in transit.",
+        "transport_rule": "Sea and inland waterway"
+    }
+}
